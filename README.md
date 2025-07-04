@@ -51,3 +51,17 @@ Aplikasi Android yang berfungsi untuk membantu pengguna mengatur dan mengingat a
 - RecyclerView
 - AlarmManager & Notification
 - Intent, DatePicker, TimePicker
+
+---
+
+## 📱 Screenshot Aplikasi
+
+Berikut tampilan aplikasi:
+
+<img src="https://github.com/user-attachments/assets/8ceb920f-efb1-40dd-924e-bb23974a9208" width="300"/>
+<img src="https://github.com/user-attachments/assets/853aa79b-9d46-481e-b0c2-5a842b5993fc" width="300"/>
+<img src="https://github.com/user-attachments/assets/627033ca-2f9b-4518-a317-6032d291ed6d" width="300"/>
+<img src="https://github.com/user-attachments/assets/d9017c62-0f47-4928-bb13-84606d2eec54" width="300"/>
+<img src="https://github.com/user-attachments/assets/00661ade-5c7b-46b5-bbd1-be9fece658cd" width="300"/>
+<img src="https://github.com/user-attachments/assets/c6e148eb-cf44-462a-b4f6-6c42ef35c1fb" width="300"/>
+
