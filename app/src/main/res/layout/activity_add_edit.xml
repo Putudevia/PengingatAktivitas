@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.AddEditActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_judul"
+            android:hint="Judul Aktivitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edit_deskripsi"
+            android:hint="Deskripsi (Opsional)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edit_tanggal"
+            android:hint="Tanggal (yyyy-MM-dd)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="none"
+            android:focusable="false"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edit_waktu"
+            android:hint="Waktu (HH:mm)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="none"
+            android:focusable="false"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:text="Simpan Aktivitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@drawable/button_pink"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
